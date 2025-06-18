@@ -65,7 +65,7 @@ fun MainScreen(
                 horizontalArrangement = Arrangement.SpaceEvenly,
                 modifier = Modifier.fillMaxWidth()
             ) {
-                Button(onClick = { showSortDialog = true })   { Text("Сорт") }
+                Button(onClick = { showSortDialog = true })   { Text("Сортировка") }
                 Button(onClick = { showFilterDialog = true }) { Text("Фильтр") }
             }
             Spacer(Modifier.height(8.dp))
